@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+    background-size: 100%;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed; /* Opcional: mantém o gradiente fixo durante a rolagem */
+    background-repeat: no-repeat; /* Opcional: não repete o gradiente */
+    position: relative;
+    min-height: 100vh;
+    margin-left: 0; margin-right: 0; margin-bottom: 0;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex; /* Usar um container flex para colocar os elementos lado a lado */
+    align-items: center; /* Alinhar verticalmente ao centro */
+    background: linear-gradient(to top, #000000 60%, #515151); /* Substitua as cores conforme necessário */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno para o conteúdo do cabeçalho */
+    border-radius: 10px;
+    
+}
+.logo{
+    text-decoration: none;
+    font-size: 24px; /* Tamanho da fonte do logotipo */
+    margin: 0; /* Remover margens do h1 */
+    height: 50px; width: 150px;
+    font-size: 30px;
+    background: linear-gradient(to bottom, white, black 90%);
+    -webkit-background-clip: text; /* Para navegadores baseados em Webkit, como o Chrome e o Safari */
+    background-clip: text;
+    color: transparent; /* Oculta o texto original para exibir o gradiente */
+}
+nav ul {
+    justify-content: space-around; /* Espaçamento uniforme entre os itens */
+    display: flex;
+    margin-left: 700px;
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento da lista */
+    text-decoration: none;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline; /* Fazer com que os itens da lista de navegação fiquem na mesma linha */
+    margin: 0 25px;
+    padding-left: 15px;
+}
+.lista{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.fotomario {
+    margin-top:50px;
+    padding-left: 50px;
+    padding-top: 25px;
+    flex: 0 0 auto; /* Não cresce nem encolhe */
+    margin-right: 10px; /* Adiciona um espaçamento à direita da imagem */
+    width: 400px; /* Garante que a imagem ocupe todo o espaço do contêiner */
+    box-sizing: border-box; /* Inclui preenchimento e borda na largura total */
+    height: 400px;
+    border: 5px solid #333; /* Estilo da borda */
+    border-left: 5px solid #333; /* Estilo da borda à esquerda */
+    padding: 10px; /* Espaçamento interno (se necessário) */
+}
+.container {
+    padding-left: 20px; /* Espaçamento à esquerda */
+    display: flex
+}
+h1 {
+    margin-left: 260px;
+}
+h2 {
+    
+        line-height: 1.5; /* Espaçamento entre linhas */
+        margin-left: 100px; /* Espaço entre parágrafos */
+        margin-right: 100px;
+    
+}
+.button {
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 10%;
+    cursor: pointer; /* Transformar o cursor em uma mão (cursor de link) ao passar o mouse */
+    font-size: 20px;
+}
+form label {
+    margin-left: 5%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    margin-left: 5%;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-left: 5%;
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pcontato {
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+}
+.h2contato{
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+}   
+.quemsomos{
+    font-size: 40px;
+    background-color: rgb(62, 62, 62);
+    border-radius: 5%;
+}
+.pquemsomos {
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 350px;
+}
